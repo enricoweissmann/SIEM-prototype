@@ -145,14 +145,8 @@ Connection refused ao abrir o painel	Containers não estavam rodando	podman ps -
 🔐 Segurança e ética
 Monitore somente redes e dispositivos seus ou com autorização por escrito.
 Logs contêm dados pessoais (usuários, IPs, arquivos). Em ambiente de empresa, a LGPD pode se aplicar.
-Nunca publique senhas, certificados ou dados reais neste repositório. Sugestão de .gitignore:
+Nunca publique senhas, certificados ou dados reais neste repositório.
 
-gitignore
-*.pem
-*.key
-.env
-wazuh-passwords.txt
-single-node/config/wazuh_indexer_ssl_certs/
 Troque as senhas padrão antes de expor o painel além do seu computador.
 
 📚 Referências principais
